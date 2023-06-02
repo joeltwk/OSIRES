@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+}
+
+.container {
+  height: 100vh;
+  width: auto;
+  background-color: #090A0A;
+  position: relative;
+}
+
+.main_logo {
+  height: 20vh;
+  position: absolute;
+  left: 35px;
+  bottom: 35px;
+}
+
+.main_body {
+  position: absolute;
+  left: 35px;
+  top: 35px;
+  font-family: "swear-display", serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1.5em;
+  width: 30vw;
+  color: #F2F2F2;
+}
+
+.main_body p span {
+  font-family: "acumin-pro-condensed", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.main_sub_text {
+  position: absolute;
+  color: white;
+  right: 35px;
+  bottom: 35px;
+}
+
+.main_sub_text .sub1 {
+  font-family: "acumin-pro-condensed", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.main_sub_text .handles {
+  display: flex;
+  justify-content: flex-end;
+  font-family: "acumin-pro-condensed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 15px;
+}
+
+.main_sub_text .handles .sub3 {
+  margin-left: 30px;
+}
+
+.services {
+  position: absolute;
+  right: 35px;
+  top: 45vh;
+}
+
+.services_container .services {
+  color: #F2F2F2;
+  text-align: right;
+}
+
+.services_container .services p{
+  margin: 5px;
+}
