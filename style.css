@@ -46,6 +46,7 @@
   font-family: "acumin-pro-condensed", sans-serif;
   font-weight: 600;
   font-style: normal;
+  text-transform: uppercase;
 }
 
 .main_sub_text .handles {
@@ -77,4 +78,97 @@
 
 .services_container .services p{
   margin: 5px;
+}
+
+@media screen and (max-width: 2000px) {
+  .main_logo {
+    height: 12vh;
+    position: absolute;
+    left: 40px;
+    bottom: 35px;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+    .main_body {
+    position: absolute;
+    left: 40px;
+    top: 35px;
+    font-family: "swear-display", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.5em;
+    line-height: 25px;
+    width: 50vw;
+    color: #F2F2F2;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 200vh;
+    background-color: #090A0A;
+    position: absolute;
+  }
+
+  .logo_container {
+    width: 100vw;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+  }
+
+  .main_logo {
+    height: 12vh;
+    position: absolute;
+    left: auto;
+    top: 250px;
+    rotate: 90deg;
+  }
+
+
+  .main_body {
+    top: 40%;
+    text-align: center;
+    padding: 0;
+    font-family: "swear-display", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 1.8em;
+    line-height: 25px;
+    width: 80vw;
+    color: #F2F2F2;
+  }
+
+  .services {
+    position: absolute;
+    right: 40px;
+    top: 37vh;
+  }
+
+  .services_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .services_container .services {
+    width: 80vw;
+    padding: 0;
+    top: 60%;
+    color: #F2F2F2;
+    font-size: 3em;
+    text-align: center;
+    font-family: "acumin-pro-condensed", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  .services_container .services p{
+    margin: 0px;
+  }
 }
