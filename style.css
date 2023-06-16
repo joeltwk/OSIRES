@@ -153,8 +153,8 @@
     width: 100vw;
     text-align: center;
     top: 40%;
-    font-size: 1.3em;
-    line-height: 25px;
+    font-size: 1.2em;
+    line-height: 20px;
     color: #F2F2F2;
     font-weight: 400;
     font-family: "swear-display", serif;
@@ -187,6 +187,7 @@
   }
 
   .main_sub_text {
+    top: 130vh;
     right: auto;
     width: 100vw;
     display: flex;
