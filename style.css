@@ -73,7 +73,7 @@
 .services {
   position: absolute;
   right: 40px;
-  top: 30vh;
+  top: 35vh;
 }
 
 .services_container .services {
@@ -81,7 +81,7 @@
   text-align: right;
   font-family: "acumin-pro-condensed", sans-serif;
   font-weight: 300;
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-style: normal;
 }
 
