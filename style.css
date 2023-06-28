@@ -71,6 +71,7 @@
 }
 
 .services {
+  height: 140px;
   position: absolute;
   right: 40px;
   top: 35vh;
@@ -170,10 +171,10 @@
   .services_container .services {
     position: absolute;
     right: auto;
-    width: 100vw;
+    width: 50vw;
     text-align: center;
     top: 65%;
-    font-size: 2em
+    font-size: 1.3em
     /* width: 100vw;
     padding: 0;
     top: 60%;
@@ -187,7 +188,7 @@
   }
 
   .main_sub_text {
-    top: 90%;
+    top: 80%;
     right: auto;
     width: 100vw;
     display: flex;
