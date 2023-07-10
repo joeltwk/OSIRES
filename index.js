@@ -12,6 +12,13 @@ function changeImage(){
   setTimeout("changeImage()", 600)
 }
 
+function fadeOut(){
+  let fadeElements = document.querySelectorAll(".fade_in")
+  fadeElements.forEach(element =>
+    element.classList.add("fade")
+  );
+}
+
 function fadeIn(){
   let fadeElements = document.querySelectorAll(".fade")
   fadeElements.forEach(element =>
@@ -38,4 +45,5 @@ function checkTime(i) {
 
 window.onload = setTimeout("changeImage()", 1000)
 window.onload = fadeIn()
+window.reload = fadeOut()
 window.onload = startTime()
