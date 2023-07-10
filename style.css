@@ -228,6 +228,13 @@
     text-align: center;
   }
 
+  .main_sub_text .handles .sub3 {
+    text-align: center;
+    /* right: auto; */
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+
   .handles {
     /* width: 100%; */
     /* right: auto; */
