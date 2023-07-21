@@ -1,4 +1,4 @@
-const logo_count = 11
+const logo_count = 10
 let counter = 1
 
 function changeImage(){
@@ -13,7 +13,7 @@ function changeImage(){
 }
 
 function fadeOut(){
-  let fadeElements = document.querySelectorAll(".fade_in")
+  let fadeElements = document.querySelectorAll(".fade")
   fadeElements.forEach(element =>
     element.classList.remove("fade_in")
   );
