@@ -13,6 +13,7 @@ function changeImage(){
 }
 
 function fadeOut(){
+  console.log("fade out")
   let fadeElements = document.querySelectorAll(".fade")
   fadeElements.forEach(element =>
     element.classList.remove("fade_in")
@@ -20,6 +21,7 @@ function fadeOut(){
 }
 
 function fadeIn(){
+  console.log("fade in")
   let fadeElements = document.querySelectorAll(".fade")
   fadeElements.forEach(element =>
     element.classList.add("fade_in")
