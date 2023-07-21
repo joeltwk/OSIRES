@@ -12,21 +12,21 @@ function changeImage(){
   setTimeout("changeImage()", 600)
 }
 
-function fadeOut(){
-  console.log("fade out")
-  let fadeElements = document.querySelectorAll(".fade")
-  fadeElements.forEach(element =>
-    element.classList.remove("fade_in")
-  );
-}
+// function fadeOut(){
+//   console.log("fade out")
+//   let fadeElements = document.querySelectorAll(".fade")
+//   fadeElements.forEach(element =>
+//     element.classList.remove("fade_in")
+//   );
+// }
 
-function fadeIn(){
-  console.log("fade in")
-  let fadeElements = document.querySelectorAll(".fade")
-  fadeElements.forEach(element =>
-    element.classList.add("fade_in")
-  );
-}
+// function fadeIn(){
+//   console.log("fade in")
+//   let fadeElements = document.querySelectorAll(".fade")
+//   fadeElements.forEach(element =>
+//     element.classList.add("fade_in")
+//   );
+// }
 
 function startTime() {
   const today = new Date();
@@ -47,6 +47,6 @@ function checkTime(i) {
 
 window.onload = setTimeout("changeImage()", 1000)
 // window.onload = fadeIn()
-window.reload = fadeOut()
-window.reload = fadeIn()
+// window.reload = fadeOut()
+// window.reload = fadeIn()
 window.onload = startTime()
