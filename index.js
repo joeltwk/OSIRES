@@ -46,7 +46,7 @@ function checkTime(i) {
 
 
 window.onload = setTimeout("changeImage()", 1000)
-window.onload = fadeIn()
+// window.onload = fadeIn()
 window.reload = fadeOut()
 window.reload = fadeIn()
 window.onload = startTime()
